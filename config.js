@@ -1,7 +1,7 @@
 // config.js
 module.exports = {
   token: process.env.DISCORD_TOKEN,
-prefix: require("./prefix.json").prefix || ".",
+  prefix: require("./prefix.json").prefix || ".",
   enablePrefix: true,
   supportServer: "https://discord.gg/9MVAPpfs8D",
 
@@ -56,11 +56,12 @@ prefix: require("./prefix.json").prefix || ".",
     nodes: [
       {
         name: "Main Node",
-        host: "lavalinkv4.serenetia.com",
-        port: 80,
-        password: "https://seretia.link/discord",
-        secure: false, 
+        [span_0](start_span)host: "lava-v4.ajieblogs.eu.org", // Updated[span_0](end_span)
+        [span_1](start_span)port: 443,                       // Updated[span_1](end_span)
+        [span_2](start_span)password: "https://dsc.gg/ajidevserver", // Updated[span_2](end_span)
+        [span_3](start_span)secure: true,                    // Updated[span_3](end_span)
       }
     ]
   }
 };
+
